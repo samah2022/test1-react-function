@@ -1,36 +1,10 @@
 import React from 'react';
 import TeamMember from './TeamMember';
+import membersInfo from './MemberInfo';
 
 function Team(){
-    const info=[
-        {
-            id:1,
-            name:"Mariam",
-            img:"https://picsum.photos/200",
-            position:"bardo",
-            mail:"mariam@symdrik.com",
-            phone:"12 200 200",
-            website:"www.mariam.com"
-        },
-        {
-            id:2,
-            name:"Melek",
-            img:"https://picsum.photos/200",
-            position:"bardo",
-            mail:"Melek@symdrik.com",
-            phone:"12 200 200"
-        },
-        {
-            id:3,
-            name:"Samah",
-            img:"https://picsum.photos/200",
-            position:"Ariana",
-            mail:"mariam@symdrik.com",
-            phone:"12 200 200",
-            website:"www.samah.com"
-        }
-    ]
-    const members= info.map( member=> <TeamMember 
+  
+    const members= membersInfo.map( member=> <TeamMember 
                                         key={member.id}
                                         name={member.name}
                                         img={member.img}

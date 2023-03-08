@@ -17,7 +17,7 @@ function Header(){
         
         <div className='navbar bg-dark rounded'>
             hello {info.name}<br></br>
-            {client=="Designer"?title.designer:title.programmer}
+            {client==="Designer"?title.designer:title.programmer}
         <h1 className='bg-dark text-white'>External style</h1>
         <h1 style={style}>Test internal style</h1>
         </div>

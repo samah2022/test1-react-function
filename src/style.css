@@ -4,3 +4,6 @@ h1{
 #root{
     background-color: rgb(251, 251, 251);
 }
+.card{
+    min-height: 396px;
+}
